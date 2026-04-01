@@ -11,7 +11,7 @@ nhtfrq=0,-2
 cdo -select,name=Q /route/*.cam.h2.*.nc CTL_Q.nc
 ```
 # Reference case
-Create a new case and run it to longer timescale, such as 10 years
+Create a new case and run it to longer timescale, such as 10 years. Make sure all other settings are same as in CTL
 # Locked case
 Find the year in CTL_Q.nc, say 0001. Create another case and modify user_nl_cam:
 ```
