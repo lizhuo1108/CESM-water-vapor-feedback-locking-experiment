@@ -15,8 +15,8 @@ Create a new case and run it to longer timescale, such as 10 years
 # Locked case
 Find the year in CTL_Q.nc, say 0001. Create another case and modify user_nl_cam:
 ```
-prescribed_wv_datapath = '/some/place/for/data/'
-prescribed_wv_file = 'cloud_locking_data.nc'
+prescribed_wv_datapath = '/datapath/'
+prescribed_wv_file = 'CTL_Q.nc'
 prescribed_wv_type = 'CYCLICAL'
 prescribed_wv_cycle_yr = '0001'
 ```
