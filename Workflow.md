@@ -20,4 +20,13 @@ prescribed_wv_file = 'CTL_Q.nc'
 prescribed_wv_type = 'CYCLICAL'
 prescribed_wv_cycle_yr = '0001'
 ```
+Next, put all the modified Fortran codes in .../SourceMods/src.cam/ and rebuild the CESM model:
+```
+case.build
+```
+If you have built (compiled) the model, clean all the built modules first:
+```
+case.clean --all
+```
+Then, run the model
 # Then, run the model and compare the result to the reference case
