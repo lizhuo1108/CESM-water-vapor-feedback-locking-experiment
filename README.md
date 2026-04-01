@@ -1,5 +1,5 @@
 # Brief introduction
-Water vapor feedback locking experiment is based on the idea that you feed the radiation module in the model code with constant year-to-year water vapor content, say from a control experiment. In other words, only modify the radiation effects of water vapor. You can choose to do either longwave part, shortwave part, or both. A good example is given by "The Role of Water Vapor Feedback in Unperturbed Climate Variability and Global Warming" by Hall and Manabe (1999).
+Water vapor feedback locking experiment is based on the idea that you feed the radiation module in the model code with constant year-to-year water vapor content, say from a control experiment. In other words, only modify the radiation effects of water vapor. By deactivating the radiation effects of water vapor, you can examine the effects of water vapor feedback on climate. You can choose to do either longwave part, shortwave part, or both. A good example is given by "The Role of Water Vapor Feedback in Unperturbed Climate Variability and Global Warming" by Hall and Manabe (1999).
 
 # Getting started
 You need to be able to run the CESM model and get access to the radiation code. Check the radiation module in the model first. When I do this work, the atmospheric model I used is CAM4 and the radiation module used is CAMRT. 
